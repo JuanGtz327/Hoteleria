@@ -1,0 +1,21 @@
+{
+  "name": "bases",
+  "version": "1.0.0",
+  "description": "A project for data bases selecte topics subject",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon backend/index.js"
+  },
+  "author": "JuanGtz",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "msnodesqlv8": "^2.7.0",
+    "mssql": "^9.0.1",
+    "node-datetime": "^2.1.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  }
+}
